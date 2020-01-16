@@ -28,9 +28,8 @@
   "dependencies": {
     "@uppy/companion-client": "0.27.2",
     "@uppy/utils": "0.27.1",
-    "activestorage": "5.2.1",
+    "@rails/activestorage": "^6.0.0",
     "cuid": "^2.1.1",
-    "uppy-activestorage-upload": "https://github.com/excid3/uppy-activestorage-upload"
   },
   "devDependencies": {
     "@uppy/core": "0.27.2"
