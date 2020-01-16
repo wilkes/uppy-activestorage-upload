@@ -1,5 +1,5 @@
 {
-  "name": "uppy-activestorage-upload",
+  "name": "@excid3/uppy-activestorage-upload",
   "description": "Rails ActiveStorage DirectUpload engine for Uppy",
   "version": "0.1.0",
   "license": "MIT",
@@ -28,13 +28,17 @@
   "dependencies": {
     "@uppy/companion-client": "0.27.2",
     "@uppy/utils": "0.27.1",
+    "activestorage": "5.2.1",
     "cuid": "^2.1.1",
-    "activestorage": "5.2.1"
+    "uppy-activestorage-upload": "https://github.com/excid3/uppy-activestorage-upload"
   },
   "devDependencies": {
     "@uppy/core": "0.27.2"
   },
   "peerDependencies": {
     "@uppy/core": "^0.27.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
