@@ -11,6 +11,8 @@ Add this line to your HEAD tag.
 <%= tag.meta name: "direct-upload-url", content: rails_direct_uploads_path %>
 ```
 
+Then use `ActiveStorageUpload` as an Uppy plugin in your Javascript pack with Webpacker.
+
 ```js
 const Uppy = require('@uppy/core')
 const ActiveStorageUpload = require('uppy-activestorage-upload')
