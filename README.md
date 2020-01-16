@@ -6,20 +6,27 @@ The ActiveStorage Upload plugin handles Ruby on Rails ActiveStorage direct uploa
 
 ## Example
 
+Add this line to your HEAD tag.
+```erb
+<%= tag.meta name: "direct-upload-url", content: rails_direct_uploads_path %>
+```
+
 ```js
 const Uppy = require('@uppy/core')
 const ActiveStorageUpload = require('uppy-activestorage-upload')
 
 const uppy = Uppy()
 uppy.use(ActiveStorageUpload, {
-  directUploadUrl: ... // Rails' active storage direct upload path obtained i.e. via `Rails.app.routes.url_helpers.rails_direct_uploads_path`
+  directUploadUrl: document.querySelector("meta[name='direct-upload-url']").getAttribute("content")
 })
 ```
 
 ## Installation
 
 ```bash
-$ npm install uppy-activestorage-upload --save
+yarn add https://github.com/excid3/uppy-activestorage-upload
+or
+npm install https://github.com/excid3/uppy-activestorage-upload --save
 ```
 
 We recommend installing from npm and then using a module bundler such as [Webpack](http://webpack.github.io/), [Browserify](http://browserify.org/) or [Rollup.js](http://rollupjs.org/).
