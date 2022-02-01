@@ -26,16 +26,15 @@
     "url": "git+https://github.com/excid3/uppy-activestorage-upload.git"
   },
   "dependencies": {
-    "@uppy/companion-client": "0.27.2",
-    "@uppy/utils": "0.27.1",
-    "@rails/activestorage": "^7.0.0",
-    "cuid": "^2.1.1"
+    "cuid": "^2.1.8"
   },
   "devDependencies": {
-    "@uppy/core": "0.27.2"
+    "@rails/activestorage": "*",
+    "@uppy/core": "*"
   },
   "peerDependencies": {
-    "@uppy/core": "^0.27.0"
+    "@rails/activestorage": "*",
+    "@uppy/core": "*"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
