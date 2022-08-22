@@ -14,7 +14,7 @@ Add this line to your HEAD tag.
 Then use `ActiveStorageUpload` as an Uppy plugin in your Javascript pack with Webpacker.
 
 ```js
-import Uppy from "@uppy/core"
+import Uppy from '@uppy/core'
 const ActiveStorageUpload = require('@excid3/uppy-activestorage-upload')
 
 const uppy = Uppy()
