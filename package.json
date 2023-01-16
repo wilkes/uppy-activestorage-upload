@@ -29,8 +29,8 @@
     "cuid": "^2.1.8"
   },
   "devDependencies": {
-    "@rails/activestorage": "*",
-    "@uppy/core": "*"
+    "@rails/activestorage": "^7.0.4",
+    "@uppy/core": "^3.0.4"
   },
   "peerDependencies": {
     "@rails/activestorage": "*",
