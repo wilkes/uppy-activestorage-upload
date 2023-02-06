@@ -9,14 +9,30 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@excid3/uppy-activestorage-upload@workspace:."
   dependencies:
+    "@paralleldrive/cuid2": ^2.0.1
     "@rails/activestorage": ^7.0.4
     "@uppy/core": ^3.0.4
-    cuid: ^2.1.8
   peerDependencies:
     "@rails/activestorage": "*"
     "@uppy/core": "*"
   languageName: unknown
   linkType: soft
+
+"@noble/hashes@npm:^1.1.5":
+  version: 1.2.0
+  resolution: "@noble/hashes@npm:1.2.0"
+  checksum: 8ca080ce557b8f40fb2f78d3aedffd95825a415ac8e13d7ffe3643f8626a8c2d99a3e5975b555027ac24316d8b3c02a35b8358567c0c23af681e6573602aa434
+  languageName: node
+  linkType: hard
+
+"@paralleldrive/cuid2@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@paralleldrive/cuid2@npm:2.0.1"
+  dependencies:
+    "@noble/hashes": ^1.1.5
+  checksum: 700e6d719f88e8ff3237dd72f106bb394e50149eeada9008694a7f91e05db1369ff0a4bb8248024d1764fcf964ce3035cc8ea9cfaab51694669925f542d07d74
+  languageName: node
+  linkType: hard
 
 "@rails/activestorage@npm:^7.0.4":
   version: 7.0.4
@@ -63,13 +79,6 @@ __metadata:
   dependencies:
     lodash.throttle: ^4.1.1
   checksum: 6e6e6e4e1f501abba4c2518b289c9c17cd972266b2ec19029c1bc2da8d503d2278da8866272481f6dda44ef201f9900dd5193156e95faee403d851e388000807
-  languageName: node
-  linkType: hard
-
-"cuid@npm:^2.1.8":
-  version: 2.1.8
-  resolution: "cuid@npm:2.1.8"
-  checksum: 12b85b3f5150a6f0b9e4f345c8d98299d74647419151751fa1132f6702fe2b5388ceceb1c9b49bad7cab1b3ac033c7cedea8ffc034930f90005b8a4345025288
   languageName: node
   linkType: hard
 
