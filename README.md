@@ -11,13 +11,13 @@ Add this line to your HEAD tag.
 <%= tag.meta name: "direct-upload-url", content: rails_direct_uploads_path %>
 ```
 
-Then use `ActiveStorageUpload` as an Uppy plugin in your Javascript pack with Webpacker.
+Then use `ActiveStorageUpload` as an Uppy plugin in your Javascript pack.
 
 ```js
 import Uppy from '@uppy/core'
-const ActiveStorageUpload = require('@excid3/uppy-activestorage-upload')
+import ActiveStorageUpload from "uppy-activestorage-upload"
 
-const uppy = Uppy()
+let uppy = new Uppy(options)
 uppy.use(ActiveStorageUpload, {
   directUploadUrl: document.querySelector("meta[name='direct-upload-url']").getAttribute("content")
 })
@@ -26,12 +26,12 @@ uppy.use(ActiveStorageUpload, {
 ## Installation
 
 ```bash
-yarn add https://github.com/excid3/uppy-activestorage-upload
-or
-npm install https://github.com/excid3/uppy-activestorage-upload --save
+yarn add https://github.com/pugelt5/uppy-activestorage-upload
+# or
+npm install https://github.com/pugelt5/uppy-activestorage-upload --save
 ```
 
-We recommend installing from npm and then using a module bundler such as [Webpack](http://webpack.github.io/), [Browserify](http://browserify.org/) or [Rollup.js](http://rollupjs.org/).
+We recommend installing from npm and then using a module bundler such as [Webpack](http://webpack.github.io/), [Browserify](http://browserify.org/), [Rollup.js](http://rollupjs.org/) or [esbuild](https://esbuild.github.io/).
 
 ## License
 
