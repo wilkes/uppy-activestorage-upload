@@ -1,7 +1,7 @@
 {
-  "name": "@excid3/uppy-activestorage-upload",
+  "name": "@puglet5/uppy-activestorage-upload",
   "description": "Rails ActiveStorage DirectUpload engine for Uppy",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "license": "MIT",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/excid3/uppy-activestorage-upload.git"
+    "url": "git+https://github.com/puglet5/uppy-activestorage-upload.git"
   },
   "devDependencies": {
     "@rails/activestorage": "^7.0.4",
