@@ -34,9 +34,10 @@
     "@uppy/core": "*"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "@excid3:registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
-    "@paralleldrive/cuid2": "^2.0.1"
+    "@paralleldrive/cuid2": "^2.0.1",
+    "np": "^7.6.3"
   }
 }
