@@ -1,11 +1,14 @@
 {
-  "name": "@puglet5/uppy-activestorage-upload",
+  "name": "@excid3/uppy-activestorage-upload",
   "description": "Rails ActiveStorage DirectUpload engine for Uppy",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "lib/index.js",
-  "jsnext:main": "src/index.js",
+  "jsnext:main": "lib/index.js",
   "types": "types/index.d.ts",
+  "files": [
+    "lib/index.js"
+  ],
   "keywords": [
     "file uploader",
     "xhr",
@@ -16,10 +19,10 @@
     "uppy",
     "uppy-plugin"
   ],
-  "homepage": "https://github.com/Sology/uppy-activestorage-upload",
-  "author": "Łukasz Jachymczyk <lukasz@sology.eu>",
+  "homepage": "https://github.com/excid3/uppy-activestorage-upload",
+  "author": "Chris Oliver <excid3@gmail.com>",
   "bugs": {
-    "url": "https://github.com/Sology/uppy-activestorage-upload/issues"
+    "url": "https://github.com/excid3/uppy-activestorage-upload/issues"
   },
   "repository": {
     "type": "git",
